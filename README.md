@@ -1,6 +1,16 @@
-## laravel7x-master
+## lara7x-ruang-admin
 
-Repo ini dibuat untuk memudahkan pengguna dengan konfugurasi asas seperti Bootstrap, FontAwesome, DataTables dan DatePicker dengan templat RuangAdmin yang telah dimasukkan.
+Repo ini dibuat untuk memudahkan pengguna dengan konfugurasi asas seperti :
+<ul>
+    <li>Templat RuangAdmin</li>
+    <li>Laravel 7.x</li>
+    <li>Bootstrap</li>
+    <li>FontAwesome</code></li>
+    <li>DataTables</li>
+    <li>Bootstrap-DatePicker</li>
+    <li>Select2</li>
+    <li>chart.js</li>
+</ul>
 <br>
 Repo ini hanya untuk kegunaan peribadi sahaja.
 

@@ -7,13 +7,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link href="img/logo/logo.png" rel="icon">
+  <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
   <title>{{ config('app.name') }}</title>
   <link href="{{ asset('/') }}vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="{{ asset('/') }}vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="{{ asset('/') }}css/ruang-admin.min.css" rel="stylesheet">
+  <link href="{{ asset('/') }}vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <!-- fullcalendar 3102 -->
+  <link href="{{ asset('/') }}vendor/fullcalendar3102/fullcalendar.min.css" rel="stylesheet" />
+  <link href="{{ asset('/') }}vendor/fullcalendar3102/fullcalendar.print.min.css" rel="stylesheet" media="print" />
+  <link href="{{ asset('/') }}vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet" >
   @yield('css')
 </head>
+
+<style media="screen">
+  body {
+    font-size: 14px !important;
+  }
+
+  .fc-title, .fc-time {
+    color: #fff;
+  }
+
+  .card .table td, .card .table th {
+    padding-left: 0.5rem !important;
+  }
+
+  .borderless td, .borderless th {
+    border: none !important;
+  }
+</style>
 
 <body id="page-top">
   <div id="wrapper">
@@ -49,6 +72,12 @@
   <script src="{{ asset('/') }}vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="{{ asset('/') }}vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="{{ asset('/') }}js/ruang-admin.min.js"></script>
+  <script src="{{ asset('/') }}vendor/datatables/jquery.dataTables.js"></script>
+  <script src="{{ asset('/') }}vendor/datatables/dataTables.bootstrap4.min.js"></script>
+  <!-- fullcalendar 3102 -->
+  <script src="{{ asset('/') }}vendor/fullcalendar3102/lib/moment.min.js"></script>
+  <script src="{{ asset('/') }}vendor/fullcalendar3102/fullcalendar.min.js"></script>
+  <script src="{{ asset('/') }}vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
   @yield('script')
 
 </body>
